@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 20px;
+
+}
+body{
+    background: url('image1.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    backdrop-filter:blur(10px);
+    
+    
+}
+#heading{
+    text-align: center;
+    margin-bottom: 0px;
+}
+#heading>h1{
+    font-size: 1.9rem;
+    color:chocolate
+
+}
+
+
+#main{
+    width: 340px;
+    height: 500px;
+    margin: 10px  auto;
+    display:grid;
+    grid-template-columns: repeat(4,68px);
+    grid-template-rows: repeat(6,60px);
+    border-radius: 10px;
+    background-color: rgb(84, 80, 80);
+    border: 2px solid ;
+    gap:15px 10px;
+    place-content: center center;
+    box-shadow: 8px 8px 8px rgb(50, 41, 37);
+
+    
+}
+
+.one{
+    border-radius:5px;
+    
+}
+
+.item-1{
+    grid-column:1/5;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  
+}
+
+.item-1>input[type="text"]{
+    border-radius: 10px;
+    width:97%;
+    height:96%;
+    text-align: end;
+    padding: 6px;
+    border: none;
+    outline: none;
+    
+    
+    
+}
+
+.item-20{
+    grid-column:3/5;
+}
+input[type="button"]{
+    height: 100%;
+    width:100%;
+    border: none;
+    outline: none;
+    background: none;
+    border-radius:0px ;
+    color: white;
+    
+}
+
+.item-2,.item-3,.item-4,.item-5,.item-9,.item-13,.item-17{
+    background-color: coral;
+    box-shadow: 8px 8px 8px rgb(104, 61, 46);
+    border:1px solid;
+}
+.item-6,.item-7,.item-8,.item-10,.item-11,.item-12,.item-14,.item-15,.item-16,.item-18,.item-19,.item-20{
+    background-color: black;
+    box-shadow: 8px 8px 8px rgb(68, 43, 33); 
+    border:1px solid rgb(139, 136, 136)  
+}
+
+input[type="button"]:hover{
+    cursor: pointer;
+    
+}
+
+
